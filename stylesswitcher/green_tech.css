@@ -18,7 +18,10 @@ display: none !important;
 }
 
 body {
-    background: url("http://themes.googleusercontent.com/image?id=0BwVBOzw_-hbMM2NhMzhkZjgtY2E5Zi00ZjRkLTgwNWQtY2IyZGIzZWY4ODQy") no-repeat fixed center top #3B4E17;
+    background: none repeat scroll 0 0 white;
+    box-shadow: 0 0 500px LightSeaGreen inset;
+    -moz-box-shadow: 0 0 500px LightSeaGreen inset;
+    -webkit-box-shadow: 0 0 500px LightSeaGreen inset;
     color: #333333;
     font: small Georgia Serif;
     margin: 0;
