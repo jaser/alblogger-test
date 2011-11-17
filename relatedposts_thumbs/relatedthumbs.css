@@ -1,0 +1,16 @@
+﻿#related-posts {
+float:center;
+text-transform:none;
+height:100%;
+width:100%
+min-height:100%;
+padding-top:5px;
+padding-right:5px;
+}
+#related-posts h2{ display:none;}
+#related-posts h3{ border-bottom: 1px dashed #E5E5E5;
+    color: gray;
+    font-size: 22px;}
+#related-posts a{color:black;}
+#related-posts a:hover{color:black;}
+#related-posts a:hover {background-color:#d4eaf2;}
