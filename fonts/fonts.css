@@ -1,0 +1,9 @@
+﻿body{background:#eee;margin:50px auto;}a{;text-decoration:none;color:#154c8b}a:hover{color:#333;}
+.bg, .bg2, .bg3{background:#fff;width:600px;height:80px;margin:10px auto;border:1px solid #ddd;padding:10px;
+border-radius:10px;-webkit-border-radius:10px;-moz-border-radius:10px;}
+.bg2{height:280px;}.bg3{height:200px;}
+@font-face {font-family: ahmed;src: url('ahmed.eot');src: local('☺'), url('fonts/gess.ttf') format("truetype");}
+h1 {font-family: ahmed ;text-align:center;font-style:normal;font-weight:normal;color:#8b1515; font-size:16px;}
+@font-face {font-family: ahmed2;src: url('ahmed.eot');src: local('☺'), url('fonts/Shorooq.ttf') format("truetype");}
+h2 {text-align:center;font-family: ahmed2, tahoma;font-style:normal;font-weight:normal;color:#154c8b;}
+h3 {text-align:left;font-family: ahmed2, tahoma;font-style:normal;font-weight:normal;color:#000;font-size:12pt;}
