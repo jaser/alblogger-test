@@ -35,7 +35,7 @@ bodyText.innerHTML = theText;
 }replaceText();
 
 function replaceText(){if(!document.getElementById){return;}
-bodyText = document.getElementById("post-body");
+bodyText = document.getElementById("smiles");
 theText = bodyText.innerHTML;
 theText = theText.replace(/\[img\].*?'.*?\[\/img\]/gi, "");
 /* íæÊíæÈ */
