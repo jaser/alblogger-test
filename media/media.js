@@ -12,7 +12,7 @@ theText = theText.replace(/\[youtube\]http:\/\/www.youtube.com\/watch\?v=/gi, "<
 theText = theText.replace(/&feature=/gi, "?rel=0' '");
 theText = theText.replace(/\[\/youtube\]/gi, "?rel=0' frameborder='0' allowfullscreen></iframe>");
 
-theText = theText.replace(/\[code\]/gi, "<pre style='text-align:left; direction:ltr; color:olive;'>");
+theText = theText.replace(/\[code\]/gi, "<pre style='text-align:left; direction:ltr; color:olive;background:#EEEEEE;font-size:13px;font-weight:normal!important;line-height:18px;overflow:auto;padding: 7px 0 7px 10px;'>");
 theText = theText.replace(/\[\/code\]/gi, "</pre>");
 
 
