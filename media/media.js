@@ -3,7 +3,7 @@ function replaceText(){if(!document.getElementById){return;}
 bodyText = document.getElementById("comment-holder");
 theText = bodyText.innerHTML;
 theText = theText.replace(/\[img\].*?'.*?\[\/img\]/gi, "");
-/* ÌÊ ÌÊ» */
+/* √≠√¶√ä√≠√¶√à */
 theText = theText.replace(/\[youtube\].*?'.*?\[\/youtube\]/gi, "");
 theText = theText.replace(/\[img\]/gi, "<div style='clear:both'></div><img style='float:left;margin:10px 0;border:1px solid #DDD;max-width:590px;background:#FFF;padding:4px' src='");
 theText = theText.replace(/\[\/img\]/gi, "'/><div style='clear:both'></div>");
@@ -16,21 +16,21 @@ theText = theText.replace(/\[code\]/gi, "<pre style='text-align:left; direction:
 theText = theText.replace(/\[\/code\]/gi, "</pre>");
 
 
-theText = theText.replace(/”1/gi, "<img src='https://lh4.ggpht.com/_u7a1IFxc4WI/TM-vt_XVZKI/AAAAAAAAATI/Q35_W0anT6A/21.gif'/>");
-theText = theText.replace(/”2/gi, "<img src='https://lh6.ggpht.com/_u7a1IFxc4WI/TM-vzUt1yQI/AAAAAAAAATY/QHNvnj0gYbU/41.gif'/>");
-theText = theText.replace(/”3/gi, "<img src='https://lh3.ggpht.com/_u7a1IFxc4WI/TM-voxnkRKI/AAAAAAAAAS4/PjDn098vm3w/4.gif'/>");
-theText = theText.replace(/”4/gi, "<img src='https://lh6.ggpht.com/_u7a1IFxc4WI/TM-vpDb68dI/AAAAAAAAAS8/Yv0Uu3qzG_Q/10.gif'/>");
-theText = theText.replace(/”5/gi, "<img src='https://lh4.ggpht.com/_u7a1IFxc4WI/TM-vt5z16MI/AAAAAAAAATE/Hx-7Thmr6do/20.gif'/>");
-theText = theText.replace(/”6/gi, "<img src='https://lh6.ggpht.com/_u7a1IFxc4WI/TM-voiNIw2I/AAAAAAAAASw/aav2hwqeG0c/1.gif'/>");
-theText = theText.replace(/”7/gi, "<img src='https://lh6.ggpht.com/_u7a1IFxc4WI/TM-voq7QQnI/AAAAAAAAAS0/UzoFJOCcPPU/2.gif'/>");
-theText = theText.replace(/”8/gi, "<img src='https://lh5.ggpht.com/_u7a1IFxc4WI/TM-vua5MF2I/AAAAAAAAATU/N4X-ouMd1-I/39.gif'/>");
-theText = theText.replace(/”9/gi, "<img src='https://lh6.ggpht.com/_u7a1IFxc4WI/TM-vuMg6RQI/AAAAAAAAATQ/rWj7euuKOZs/33.gif'/>");
-theText = theText.replace(/”10/gi, "<img src='https://lh6.ggpht.com/_u7a1IFxc4WI/TM-vpLiW1GI/AAAAAAAAATA/fPyPJcBks7s/13.gif'/>");
-theText = theText.replace(/”11/gi, "<img src='https://lh3.ggpht.com/_u7a1IFxc4WI/TM-vz4hwcNI/AAAAAAAAATo/4ySXuvQWma8/104.gif'/>");
-theText = theText.replace(/”12/gi, "<img src='https://lh4.ggpht.com/_u7a1IFxc4WI/TM-vzUOH79I/AAAAAAAAATc/oNE5H5vcNtI/42.gif'/>");
-theText = theText.replace(/”13/gi, "<img src='https://lh6.ggpht.com/_u7a1IFxc4WI/TM-vzrqI4MI/AAAAAAAAATk/BhfFnT0Gbro/66.gif'/>");
-theText = theText.replace(/”14/gi, "<img src='https://lh6.ggpht.com/_u7a1IFxc4WI/TM-vziH8NXI/AAAAAAAAATg/2evEbN2cJwc/43.gif'/>");
-theText = theText.replace(/”15/gi, "<img src='https://lh6.ggpht.com/_u7a1IFxc4WI/TM-vuJ1G41I/AAAAAAAAATM/_jLHXvz6PTg/24.gif'/>");
+theText = theText.replace(/√ì1/gi, "<img src='https://lh4.ggpht.com/_u7a1IFxc4WI/TM-vt_XVZKI/AAAAAAAAATI/Q35_W0anT6A/21.gif'/>");
+theText = theText.replace(/√ì2/gi, "<img src='https://lh6.ggpht.com/_u7a1IFxc4WI/TM-vzUt1yQI/AAAAAAAAATY/QHNvnj0gYbU/41.gif'/>");
+theText = theText.replace(/√ì3/gi, "<img src='https://lh3.ggpht.com/_u7a1IFxc4WI/TM-voxnkRKI/AAAAAAAAAS4/PjDn098vm3w/4.gif'/>");
+theText = theText.replace(/√ì4/gi, "<img src='https://lh6.ggpht.com/_u7a1IFxc4WI/TM-vpDb68dI/AAAAAAAAAS8/Yv0Uu3qzG_Q/10.gif'/>");
+theText = theText.replace(/√ì5/gi, "<img src='https://lh4.ggpht.com/_u7a1IFxc4WI/TM-vt5z16MI/AAAAAAAAATE/Hx-7Thmr6do/20.gif'/>");
+theText = theText.replace(/√ì6/gi, "<img src='https://lh6.ggpht.com/_u7a1IFxc4WI/TM-voiNIw2I/AAAAAAAAASw/aav2hwqeG0c/1.gif'/>");
+theText = theText.replace(/√ì7/gi, "<img src='https://lh6.ggpht.com/_u7a1IFxc4WI/TM-voq7QQnI/AAAAAAAAAS0/UzoFJOCcPPU/2.gif'/>");
+theText = theText.replace(/√ì8/gi, "<img src='https://lh5.ggpht.com/_u7a1IFxc4WI/TM-vua5MF2I/AAAAAAAAATU/N4X-ouMd1-I/39.gif'/>");
+theText = theText.replace(/√ì9/gi, "<img src='https://lh6.ggpht.com/_u7a1IFxc4WI/TM-vuMg6RQI/AAAAAAAAATQ/rWj7euuKOZs/33.gif'/>");
+theText = theText.replace(/ÿµ1/gi, "<img src='https://lh6.ggpht.com/_u7a1IFxc4WI/TM-vpLiW1GI/AAAAAAAAATA/fPyPJcBks7s/13.gif'/>");
+theText = theText.replace(/ÿµ2/gi, "<img src='https://lh3.ggpht.com/_u7a1IFxc4WI/TM-vz4hwcNI/AAAAAAAAATo/4ySXuvQWma8/104.gif'/>");
+theText = theText.replace(/ÿµ3/gi, "<img src='https://lh4.ggpht.com/_u7a1IFxc4WI/TM-vzUOH79I/AAAAAAAAATc/oNE5H5vcNtI/42.gif'/>");
+theText = theText.replace(/ÿµ4/gi, "<img src='https://lh6.ggpht.com/_u7a1IFxc4WI/TM-vzrqI4MI/AAAAAAAAATk/BhfFnT0Gbro/66.gif'/>");
+theText = theText.replace(/ÿµ5/gi, "<img src='https://lh6.ggpht.com/_u7a1IFxc4WI/TM-vziH8NXI/AAAAAAAAATg/2evEbN2cJwc/43.gif'/>");
+theText = theText.replace(/ÿµ6/gi, "<img src='https://lh6.ggpht.com/_u7a1IFxc4WI/TM-vuJ1G41I/AAAAAAAAATM/_jLHXvz6PTg/24.gif'/>");
 bodyText.innerHTML = theText;
 }replaceText();
 //]]>
