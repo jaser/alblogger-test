@@ -35,8 +35,8 @@ bodyText.innerHTML = theText;
 }replaceText();
 
 function replaceText(){if(!document.getElementById){return;}
-bodyText = document.getElementById("smiles");
-theText = bodyText.innerHTML;
+bodyText2 = document.getElementById("smiles");
+theText = bodyText2.innerHTML;
 theText = theText.replace(/\[img\].*?'.*?\[\/img\]/gi, "");
 /* íæÊíæÈ */
 theText = theText.replace(/\[youtube\].*?'.*?\[\/youtube\]/gi, "");
