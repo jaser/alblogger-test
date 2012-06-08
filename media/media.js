@@ -3,10 +3,11 @@ function replaceText(){if(!document.getElementById){return;}
 bodyText = document.getElementById("comment-holder");
 theText = bodyText.innerHTML;
 theText = theText.replace(/\[img\].*?'.*?\[\/img\]/gi, "");
-/* íæÊíæÈ */
 theText = theText.replace(/\[youtube\].*?'.*?\[\/youtube\]/gi, "");
-                       theText = theText.replace(/\[img\]/gi, "<div style='clear:both'></div><img style='margin:5px auto;display:block;border:1px solid #DDD;max-width:400px;background:#FFF;padding:4px' src='");
+
+theText = theText.replace(/\[img\]/gi, "<div style='clear:both'></div><img style='margin:5px auto;display:block;max-width:400px;' src='");
 theText = theText.replace(/\[\/img\]/gi, "'/><div style='clear:both'></div>");
+
 theText = theText.replace(/\[youtube\]http:\/\/youtu.be/gi, "<iframe width='480' height='390' src='http://www.youtube.com/embed");
 theText = theText.replace(/\[youtube\]http:\/\/www.youtube.com\/watch\?v=/gi, "<iframe width='480' height='390' src='http://www.youtube.com/embed/");
 theText = theText.replace(/&feature=/gi, "?rel=0' '");
