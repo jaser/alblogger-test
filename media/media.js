@@ -5,7 +5,7 @@ theText = bodyText.innerHTML;
 theText = theText.replace(/\[img\].*?'.*?\[\/img\]/gi, "");
 theText = theText.replace(/\[youtube\].*?'.*?\[\/youtube\]/gi, "");
 
-theText = theText.replace(/\[img\]/gi, "<div style='clear:both'></div><img style='margin:5px auto;display:block;max-width:400px;' src='");
+theText = theText.replace(/\[img\]/gi, "<div style='clear:both'></div><img style='margin:5px auto;max-width:400px;' src='");
 theText = theText.replace(/\[\/img\]/gi, "'/><div style='clear:both'></div>");
 
 theText = theText.replace(/\[youtube\]http:\/\/youtu.be/gi, "<iframe width='480' height='390' src='http://www.youtube.com/embed");
