@@ -3,19 +3,20 @@ function replaceText(){if(!document.getElementById){return;}
 bodyText = document.getElementById("comment-holder");
 theText = bodyText.innerHTML;
 theText = theText.replace(/\[img\].*?'.*?\[\/img\]/gi, "");
-theText = theText.replace(/\[youtube\].*?'.*?\[\/youtube\]/gi, "");
+theText = theText.replace(/\[y\].*?'.*?\[\/y\]/gi, "");
 
+/* adjust Iframe */
 document.write("<style> .comment-content iframe {max-width:80%;display:block;margin:0 auto;}<\/style>");
-
+/* images */
 theText = theText.replace(/\[img\]/gi, "<div style='clear:both'></div><img style='margin:0 auto;max-width:90%;display:block;' src='");
 theText = theText.replace(/\[\/img\]/gi, "'/><div style='clear:both'></div>");
 theText = theText.replace(/\[\\img\]/gi, "'/><div style='clear:both'></div>");
-
-theText = theText.replace(/\[youtube\]http:\/\/youtu.be/gi, "<iframe width='480' height='390' src='http://www.youtube.com/embed");
-theText = theText.replace(/\[youtube\]http:\/\/www.youtube.com\/watch\?v=/gi, "<iframe width='480' height='390' src='http://www.youtube.com/embed/");
+/* youtube */
+theText = theText.replace(/\[y\]http:\/\/youtu.be/gi, "<iframe width='480' height='390' src='http://www.youtube.com/embed");
+theText = theText.replace(/\[y\]http:\/\/www.youtube.com\/watch\?v=/gi, "<iframe width='480' height='390' src='http://www.youtube.com/embed/");
 theText = theText.replace(/&feature=/gi, "?rel=0' '");
-theText = theText.replace(/\[\/youtube\]/gi, "?rel=0' frameborder='0' allowfullscreen></iframe>");
-theText = theText.replace(/\[\\youtube\]/gi, "?rel=0' frameborder='0' allowfullscreen></iframe>");
+theText = theText.replace(/\[\/y\]/gi, "?rel=0' frameborder='0' allowfullscreen></iframe>");
+theText = theText.replace(/\[\\y\]/gi, "?rel=0' frameborder='0' allowfullscreen></iframe>");
 
 
 theText = theText.replace(/\[code\]/gi, "<pre style='text-align:left; direction:ltr; color:olive;background:#EEEEEE;font-size:13px;font-weight:normal!important;line-height:18px;overflow:auto;padding: 7px 0 7px 10px;'>");
