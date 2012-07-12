@@ -17,7 +17,7 @@ theText = theText.replace(/&feature=/gi, "?rel=0' '");
 theText = theText.replace(/\[\/y\]/gi, "?rel=0' frameborder='0' allowfullscreen></iframe>");
 theText = theText.replace(/\[\\y\]/gi, "?rel=0' frameborder='0' allowfullscreen></iframe>");
 /*vimeo*/
-theText = theText.replace(/\[v\]/gi, "<iframe src='");
+theText = theText.replace(/\[v\]/gi, "<iframe src='http://player.vimeo.com/video/");
 theText = theText.replace(/\[\/v\]/gi, "?title=0&amp;byline=0&amp;portrait=0' width='500' height='281' frameborder='0' allowFullScreen></iframe>");
 theText = theText.replace(/\[\/v\]/gi, "?title=0&amp;byline=0&amp;portrait=0' width='500' height='281' frameborder='0' allowFullScreen></iframe>");
 
