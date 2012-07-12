@@ -5,7 +5,7 @@ theText = bodyText.innerHTML;
 theText = theText.replace(/\[img\].*?'.*?\[\/img\]/gi, "");
 theText = theText.replace(/\[youtube\].*?'.*?\[\/youtube\]/gi, "");
 
-document.write("<style> .comment-content  iframe {max-width:30%; display: block; margin: 0 auto;} <\/style>");
+document.write("<style> .comment-content iframe {max-width:80%;display:block;margin:0 auto;}<\/style>");
 
 theText = theText.replace(/\[img\]/gi, "<div style='clear:both'></div><img style='margin:0 auto;max-width:90%;display:block;' src='");
 theText = theText.replace(/\[\/img\]/gi, "'/><div style='clear:both'></div>");
