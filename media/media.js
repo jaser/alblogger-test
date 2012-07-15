@@ -10,13 +10,13 @@ theText = theText.replace(/\[img\]/gi, "<div style='clear:both'></div><img style
 theText = theText.replace(/\[\/img\]/gi, "'/><div style='clear:both'></div>");
 theText = theText.replace(/\[\\img\]/gi, "'/><div style='clear:both'></div>");
 /* youtube */
-theText = theText.replace(/\[y\]http:\/\/youtu.be/gi, "<iframe style='max-width:80%' width='480' height='390' src='http://www.youtube.com/embed");
+theText = theText.replace(/\[y\]http:\/\/youtu.be/gi, "<iframe style='max-width:80%;display:block;margin:0 auto;' width='480' height='390' src='http://www.youtube.com/embed");
 theText = theText.replace(/\[y\]http:\/\/www.youtube.com\/watch\?v=/gi, "<iframe width='480' height='390' src='http://www.youtube.com/embed/");
 theText = theText.replace(/&feature=/gi, "?rel=0' '");
 theText = theText.replace(/\[\/y\]/gi, "?rel=0' frameborder='0' allowfullscreen></iframe>");
 theText = theText.replace(/\[\\y\]/gi, "?rel=0' frameborder='0' allowfullscreen></iframe>");
 /*vimeo*/
-theText = theText.replace(/\[v\]/gi, "<iframe style='max-width:80%' src='http://player.vimeo.com/video/");
+theText = theText.replace(/\[v\]/gi, "<iframe style='max-width:80%;display:block;margin:0 auto;' src='http://player.vimeo.com/video/");
 theText = theText.replace(/\[\/v\]/gi, "?title=0&amp;byline=0&amp;portrait=0' width='500' height='281' frameborder='0' allowFullScreen></iframe>");
 theText = theText.replace(/\[\\v\]/gi, "?title=0&amp;byline=0&amp;portrait=0' width='500' height='281' frameborder='0' allowFullScreen></iframe>");
 
