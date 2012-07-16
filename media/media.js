@@ -1,6 +1,6 @@
 //<![CDATA[
 function replaceText(){if(!document.getElementById){return;}
-bodyText = document.getElementById("comment-holder");
+bodyText = document.getElementById("comments");
 theText = bodyText.innerHTML;
 theText = theText.replace(/\[img\].*?'.*?\[\/img\]/gi, "");
 theText = theText.replace(/\[y\].*?'.*?\[\/y\]/gi, "");
@@ -20,12 +20,20 @@ theText = theText.replace(/\[\\y\]/gi, "?rel=0' frameborder='0' allowfullscreen>
 theText = theText.replace(/\[v\]/gi, "<iframe style='max-width:80%;' src='http://player.vimeo.com/video/");
 theText = theText.replace(/\[\/v\]/gi, "?title=0&amp;byline=0&amp;portrait=0' width='500' height='281' frameborder='0' allowFullScreen></iframe>");
 theText = theText.replace(/\[\\v\]/gi, "?title=0&amp;byline=0&amp;portrait=0' width='500' height='281' frameborder='0' allowFullScreen></iframe>");
-
-
+/*mp3*/
+theText = theText.replace(/\[mp3\]/gi, "<center><object data='http://www.google.com/reader/ui/3523697345-audio-player.swf' type='application/x-shockwave-flash' width='300' height='27'><param name='src' value='http://www.google.com/reader/ui/3523697345-audio-player.swf' /><param name='FlashVars' value='audioUrl=");
+theText = theText.replace(/\[\/mp3\]/gi, "'/></object></center>");
+theText = theText.replace(/\[\\mp3\]/gi, "'/></object></center>");
+/*real*/
+theText = theText.replace(/\[rm\]/gi, "<center><embed width='300' height='27' src='");
+theText = theText.replace(/\[\/rm\]/gi, "' pluginspage='http://www.real.com/player' type='audio/x-pn-realaudio-plugin' nojava='true' autostart='false' maintainaspect='false' controls='controlpanel'/></center>");
+theText = theText.replace(/\[\\rm\]/gi, "' pluginspage='http://www.real.com/player' type='audio/x-pn-realaudio-plugin' nojava='true' autostart='false' maintainaspect='false' controls='controlpanel'/></center>");
+/* code */
 theText = theText.replace(/\[code\]/gi, "<pre style='text-align:left; direction:ltr; color:olive;background:#EEEEEE;font-size:13px;font-weight:normal!important;line-height:18px;overflow:auto;padding: 7px 0 7px 10px;'>");
 theText = theText.replace(/\[\/code\]/gi, "</pre>");
+theText = theText.replace(/\[\\code\]/gi, "</pre>");
 
-
+/* smilies*/
 theText = theText.replace(/س1/gi, "<img src='https://lh4.ggpht.com/_u7a1IFxc4WI/TM-vt_XVZKI/AAAAAAAAATI/Q35_W0anT6A/21.gif'/>");
 theText = theText.replace(/س2/gi, "<img src='https://lh6.ggpht.com/_u7a1IFxc4WI/TM-vzUt1yQI/AAAAAAAAATY/QHNvnj0gYbU/41.gif'/>");
 theText = theText.replace(/س3/gi, "<img src='https://lh3.ggpht.com/_u7a1IFxc4WI/TM-voxnkRKI/AAAAAAAAAS4/PjDn098vm3w/4.gif'/>");
