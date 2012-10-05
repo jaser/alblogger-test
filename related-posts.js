@@ -52,6 +52,8 @@ document.write('</ul>');
 
 }
 
+removeRelatedDuplicates(); printRelatedLabels();
+
 //]]>
 
 
