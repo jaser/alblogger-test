@@ -58,7 +58,7 @@ expr:src='&quot;/feeds/posts/default/-/&quot; + data:label.name + &quot;?alt=jso
 document.write("</b:loop> </font>");
 removeRelatedDuplicates(); printRelatedLabels();
 document.write("<script type='text/javascript'> removeRelatedDuplicates(); printRelatedLabels();</script>");
-document.write("</div></b:if>");
+document.write("</div>");
 
 
 
