@@ -53,12 +53,7 @@ document.write('</ul>');
 }
 
 
-document.write("<b:if cond='data:blog.pageType == &quot;item&quot;'><div id='related-posts'><h2>مواضيع ذات صلة : </h2>");
-document.write("<font color='#FFFFFF'><b:loop values='data:post.labels' var='label'><b:if cond='data:label.isLast != &quot;true&quot;'>,</b:if>");
-document.write("<b:if cond='data:blog.pageType == &quot;item&quot;'>");
-document.write("<script expr:src='&quot;/feeds/posts/default/-/&quot; + data:label.name + &quot;?alt=json-in-script&amp;callback=related_results_labels&amp;max-results=5&quot;' type='text/javascript'/>");
-document.write("</b:if></b:loop> </font>");
-document.write("<script type='text/javascript'> removeRelatedDuplicates(); printRelatedLabels();</script></div></b:if>");
+document.write("<b:if cond='data:blog.pageType == &quot;item&quot;'><div id='related-posts'><h2>مواضيع ذات صلة : </h2><font color='#FFFFFF'><b:loop values='data:post.labels' var='label'><b:if cond='data:label.isLast != &quot;true&quot;'>,</b:if><b:if cond='data:blog.pageType == &quot;item&quot;'> <script expr:src='&quot;/feeds/posts/default/-/&quot; + data:label.name + &quot;?alt=json-in-script&amp;callback=related_results_labels&amp;max-results=5&quot;' type='text/javascript'/></b:if></b:loop> </font><script type='text/javascript'> removeRelatedDuplicates(); printRelatedLabels();</script></div></b:if>");
 
 
 
