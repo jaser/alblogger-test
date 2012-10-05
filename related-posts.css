@@ -1,4 +1,3 @@
-
 #related-posts {
 width : 540px;
 margin-top:20px;
@@ -9,7 +8,7 @@ margin-bottom:10px;
 }
 
 #related-posts h2 {
-
+border-radius: 10px 10px 10px 10px;
  -moz-border-radius: 10px 10px 10px 10px;
 -webkit-border-radius: 10px;
     border: 1px solid #E2E2E2;
