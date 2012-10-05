@@ -53,7 +53,7 @@ document.write('</ul>');
 }
 
 //]]>
-document.write("<b:if cond='data:blog.pageType == 'item''><div id='related-posts'><h2>مواضيع ذات صلة : </h2><font color='#FFFFFF'><b:loop values='data:post.labels' var='label'><b:if cond='data:label.isLast != 'true''>,</b:if><b:if cond='data:blog.pageType == 'item''> <script expr:src=''/feeds/posts/default/-/' + data:label.name + '?alt=json-in-script&amp;callback=related_results_labels&amp;max-results=5'' type='text/javascript'/></b:if></b:loop> </font><script type='text/javascript'> removeRelatedDuplicates(); printRelatedLabels();</script></div></b:if>");
+
 
 
 
