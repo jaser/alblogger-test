@@ -52,7 +52,10 @@ document.write('</ul>');
 
 }
 
-removeRelatedDuplicates(); printRelatedLabels();
+document.write("<script type='text/javascript'> removeRelatedDuplicates(); printRelatedLabels();</script>");
+
+
+
 
 //]]>
 
