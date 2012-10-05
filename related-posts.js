@@ -54,7 +54,8 @@ document.write('</ul>');
 
 document.write("<div id='related-posts'><h2>مواضيع ذات صلة : </h2>");
 document.write("<font color='#FFFFFF'><b:loop values='data:post.labels' var='label'><b:if cond='data:label.isLast != &quot;true&quot;'>,</b:if>");
-expr:src='&quot;/feeds/posts/default/-/&quot; + data:label.name + &quot;?alt=json-in-script&amp;callback=related_results_labels&amp;max-results=5&quot;'
+document.write("expr:src='&quot;/feeds/posts/default/-/&quot; + data:label.name + &quot;?alt=json-in-script&amp;callback=related_results_labels&amp;max-results=5&quot;'");
+
 document.write("</b:loop> </font>");
 document.write("<script type='text/javascript'> removeRelatedDuplicates(); printRelatedLabels();</script>");
 document.write("</div>");
