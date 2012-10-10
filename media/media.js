@@ -49,6 +49,11 @@ theText = theText.replace(/ص3/gi, "<img src='https://lh4.ggpht.com/_u7a1IFxc4WI
 theText = theText.replace(/ص4/gi, "<img src='https://lh6.ggpht.com/_u7a1IFxc4WI/TM-vzrqI4MI/AAAAAAAAATk/BhfFnT0Gbro/66.gif'/>");
 theText = theText.replace(/ص5/gi, "<img src='https://lh6.ggpht.com/_u7a1IFxc4WI/TM-vziH8NXI/AAAAAAAAATg/2evEbN2cJwc/43.gif'/>");
 theText = theText.replace(/ص6/gi, "<img src='https://lh6.ggpht.com/_u7a1IFxc4WI/TM-vuJ1G41I/AAAAAAAAATM/_jLHXvz6PTg/24.gif'/>");
+
+theText=theText.replace("http://img1.blogblog.com/img/anon36.png", "http://findicons.com/files/icons/227/christmas/128/star.png");
+theText=theText.replace("http://img2.blogblog.com/img/anon36.png", "http://findicons.com/files/icons/227/christmas/128/star.png");
+
+
 bodyText.innerHTML = theText;
 }replaceText();
 
