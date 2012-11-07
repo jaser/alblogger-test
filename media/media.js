@@ -57,11 +57,11 @@ theText = theText.replace(/\[\*\]/gi, "<li>");
 theText = theText.replace(/\[\*\]/gi, "</li>");
 
 
-/* link 
+/* link */
 theText = theText.replace(/\[url=\"/gi, "<a target='_blank' href='");
 theText = theText.replace(/\[\/url\]/gi, "</a>");
 theText = theText.replace(/\"\]/gi, "'>");
-*/
+
 
 
 
