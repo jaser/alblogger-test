@@ -60,12 +60,12 @@ theText = theText.replace(/\"\]/gi, "'>");
 /* force to Open new window */
 theText = theText.replace(/<a/gi, "<a target='_blank'");
 
-/* color */ 
+/* color  
 theText = theText.replace(/\[color\=/gi, "<span style='color: ");
 theText = theText.replace(/\[\/color\]/gi, "</span>");
 theText = theText.replace(/\]/gi, ";'>");
 
-
+*/
 
 
 
