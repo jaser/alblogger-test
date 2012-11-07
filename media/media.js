@@ -39,6 +39,24 @@ theText = theText.replace(/\]/gi, "'>");
 /* force to Open new window */
 theText = theText.replace(/<a/gi, "<a target='_blank'");
 
+/* bbcode */
+theText = theText.replace(/\[b\]/gi, "<b>");
+theText = theText.replace(/\[\/b\]/gi, "</b>");
+theText = theText.replace(/\[u\]/gi, "<u>");
+theText = theText.replace(/\[\/u\]/gi, "</u>");
+theText = theText.replace(/\[s\]/gi, "<s>");
+theText = theText.replace(/\[\/s\]/gi, "</s>");
+theText = theText.replace(/\[center\]/gi, "<center>");
+theText = theText.replace(/\[\/center\]/gi, "</center>");
+theText = theText.replace(/\[i\]/gi, "<i>");
+theText = theText.replace(/\[\/i\]/gi, "</i>");
+theText = theText.replace(/\[quote\]/gi, "<quote>");
+theText = theText.replace(/\[\/quote\]/gi, "</quote>");
+theText = theText.replace(/\[list\]/gi, "<ul>");
+theText = theText.replace(/\[\/list\]/gi, "</ul>");
+theText = theText.replace(/\[\*\]/gi, "<li>");
+theText = theText.replace(/\[\*\]/gi, "</li>");
+
 
 /* smilies*/
 theText = theText.replace(/س1/gi, "<img src='https://lh4.ggpht.com/_u7a1IFxc4WI/TM-vt_XVZKI/AAAAAAAAATI/Q35_W0anT6A/21.gif'/>");
