@@ -67,9 +67,10 @@ theText = theText.replace(/\"\]/gi, "'>");
 
 
 /* color  */
-theText = theText.replace(/\[color\=/gi, "<span style='color: ");
-theText = theText.replace(/\[\/color\]/gi, "</span>");
-theText = theText.replace(/\]/gi, ";'>");
+theText = theText.replace(/\[color\=/gi, "<font color=' ");
+theText = theText.replace(/\[\/color\]/gi, "</font>");
+theText = theText.replace(/\]/gi, "'>");
+
 
 
 
