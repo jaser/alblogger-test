@@ -32,6 +32,11 @@ theText = theText.replace(/\[\\rm\]/gi, "' pluginspage='http://www.real.com/play
 theText = theText.replace(/\[code\]/gi, "<pre style='text-align:left; direction:ltr; color:olive;background:#EEEEEE;font-size:13px;font-weight:normal!important;line-height:18px;overflow:auto;padding: 7px 0 7px 10px;'>");
 theText = theText.replace(/\[\/code\]/gi, "</pre>");
 theText = theText.replace(/\[\\code\]/gi, "</pre>");
+/* link */
+theText = theText.replace(/\[url\=/gi, "<a target='_blank' href='");
+theText = theText.replace(/\[\/url\]/gi, "</a>");
+theText = theText.replace(/\]/gi, "'>");
+
 
 /* smilies*/
 theText = theText.replace(/س1/gi, "<img src='https://lh4.ggpht.com/_u7a1IFxc4WI/TM-vt_XVZKI/AAAAAAAAATI/Q35_W0anT6A/21.gif'/>");
@@ -50,8 +55,6 @@ theText = theText.replace(/ص4/gi, "<img src='https://lh6.ggpht.com/_u7a1IFxc4WI
 theText = theText.replace(/ص5/gi, "<img src='https://lh6.ggpht.com/_u7a1IFxc4WI/TM-vziH8NXI/AAAAAAAAATg/2evEbN2cJwc/43.gif'/>");
 theText = theText.replace(/ص6/gi, "<img src='https://lh6.ggpht.com/_u7a1IFxc4WI/TM-vuJ1G41I/AAAAAAAAATM/_jLHXvz6PTg/24.gif'/>");
 
-theText=theText.replace("http://img1.blogblog.com/img/anon36.png", "http://findicons.com/files/icons/227/christmas/128/star.png");
-theText=theText.replace("http://img2.blogblog.com/img/anon36.png", "http://findicons.com/files/icons/227/christmas/128/star.png");
 
 
 bodyText.innerHTML = theText;
