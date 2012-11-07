@@ -51,6 +51,11 @@ theText = theText.replace(/\[\/list\]/gi, "</ul>");
 theText = theText.replace(/\[\*\]/gi, "<li>");
 theText = theText.replace(/\[\*\]/gi, "</li>");
 
+/* color  ممكن يصير تعارض مع السطر 63*/ 
+theText = theText.replace(/\[color\=/gi, "<span style='color: ");
+theText = theText.replace(/\[\/color\]/gi, "</span>");
+theText = theText.replace(/\]/gi, ";'>");
+
 
 /* link */
 theText = theText.replace(/\[url\=/gi, "<a target='_blank' href='");
