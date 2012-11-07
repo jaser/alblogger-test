@@ -58,8 +58,9 @@ theText = theText.replace(/\[\/url\]/gi, "</a>");
 theText = theText.replace(/\"\]/gi, "'>");
 */
 
-/* force to Open new window */
+/* force to Open new window 
 theText = theText.replace(/<a/gi, "<a target='_blank'");
+*/
 
 /* color  */
 theText = theText.replace(/\[color\=/gi, "<span style='color: ");
