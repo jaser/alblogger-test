@@ -36,6 +36,8 @@ theText = theText.replace(/\[\\code\]/gi, "</pre>");
 theText = theText.replace(/\[url\=/gi, "<a target='_blank' href='");
 theText = theText.replace(/\[\/url\]/gi, "</a>");
 theText = theText.replace(/\]/gi, "'>");
+/* force to Open new window */
+theText = theText.replace(/<a/gi, "<a target='_blank'");
 
 
 /* smilies*/
