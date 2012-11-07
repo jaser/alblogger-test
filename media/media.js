@@ -32,12 +32,6 @@ theText = theText.replace(/\[\\rm\]/gi, "' pluginspage='http://www.real.com/play
 theText = theText.replace(/\[code\]/gi, "<pre style='text-align:left; direction:ltr; color:olive;background:#EEEEEE;font-size:13px;font-weight:normal!important;line-height:18px;overflow:auto;padding: 7px 0 7px 10px;'>");
 theText = theText.replace(/\[\/code\]/gi, "</pre>");
 theText = theText.replace(/\[\\code\]/gi, "</pre>");
-/* link */
-theText = theText.replace(/\[url\=/gi, "<a target='_blank' href='");
-theText = theText.replace(/\[\/url\]/gi, "</a>");
-theText = theText.replace(/\]/gi, "'>");
-/* force to Open new window */
-theText = theText.replace(/<a/gi, "<a target='_blank'");
 
 /* bbcode */
 theText = theText.replace(/\[b\]/gi, "<b>");
@@ -56,6 +50,16 @@ theText = theText.replace(/\[list\]/gi, "<ul>");
 theText = theText.replace(/\[\/list\]/gi, "</ul>");
 theText = theText.replace(/\[\*\]/gi, "<li>");
 theText = theText.replace(/\[\*\]/gi, "</li>");
+
+
+/* link */
+theText = theText.replace(/\[url\=/gi, "<a target='_blank' href='");
+theText = theText.replace(/\[\/url\]/gi, "</a>");
+theText = theText.replace(/\]/gi, "'>");
+/* force to Open new window */
+theText = theText.replace(/<a/gi, "<a target='_blank'");
+
+
 
 
 /* smilies*/
