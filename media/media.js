@@ -8,8 +8,7 @@ theText = theText.replace(/\[y\].*?'.*?\[\/y\]/gi, "");
 document.write("<style> .comments .comment-block iframe {display:block;margin:0 auto;}<\/style>");
 
 
-/* force to Open new window */
-theText = theText.replace(/<a/gi, "<a target='_blank'");
+
 
 /* images */
 theText = theText.replace(/\[img\]/gi, "<div style='clear:both'></div><img style='margin:0 auto;max-width:90%;display:block;' src='");
@@ -61,8 +60,8 @@ theText = theText.replace(/\[\*\]/gi, "</li>");
 theText = theText.replace(/\[url=\"/gi, "<a target='_blank' href='");
 theText = theText.replace(/\[\/url\]/gi, "</a>");
 theText = theText.replace(/\"\]/gi, "'>");
-
-
+/* force to Open new window */
+theText = theText.replace(/<a/gi, "<a target='_blank'");
 
 
 
