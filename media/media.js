@@ -79,11 +79,6 @@ theText = theText.replace(/<a/gi, "<a target='_blank'");
 
 
 
-/* color  */
-theText = theText.replace(/\[color\=/gi, "<font color=' ");
-theText = theText.replace(/\[\/color\]/gi, "</font>");
-theText = theText.replace(/\]/gi, "'>");
-
 
 
 
