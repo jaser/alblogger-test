@@ -65,7 +65,7 @@ theText = theText.replace(/\[\/url\]/gi, "</a>");
 theText = theText.replace(/\[font\=\"/gi, "<font face=' ");
 theText = theText.replace(/\[\/font\]/gi, "</font>");
 /* Color */
-theText = theText.replace(/\[color\=/gi, "<font color=' ");
+theText = theText.replace(/\[color\=\"/gi, "<font color=' ");
 theText = theText.replace(/\[\/color\]/gi, "</font>");
 /* Size */
 theText = theText.replace(/\[size\=\"/gi, "<font size=' ");
