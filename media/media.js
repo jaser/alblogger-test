@@ -59,9 +59,23 @@ theText = theText.replace(/\[\*\]/gi, "</li>");
 /* link */
 theText = theText.replace(/\[url=\"/gi, "<a target='_blank' href='");
 theText = theText.replace(/\[\/url\]/gi, "</a>");
+/* font family */
+theText = theText.replace(/\[font\=\"/gi, "<font face=' ");
+theText = theText.replace(/\[\/font\]/gi, "</font>");
+/* Color */
+theText = theText.replace(/\[color\=/gi, "<font color=' ");
+theText = theText.replace(/\[\/color\]/gi, "</font>");
+/* Size */
+theText = theText.replace(/\[size\=\"/gi, "<font size=' ");
+theText = theText.replace(/\[\/size\]/gi, "</font>");
+/* closing tags */   
 theText = theText.replace(/\"\]/gi, "'>");
-/* force to Open new window */
-theText = theText.replace(/<a/gi, "<a target='_blank'");
+
+
+
+/* force to Open new window 
+theText = theText.replace(/<a/gi, "<a target='_blank'"); 
+*/
 
 
 
