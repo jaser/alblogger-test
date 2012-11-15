@@ -55,7 +55,9 @@ theText = theText.replace(/\[\/list\]/gi, "</ul>");
 theText = theText.replace(/\[\*\]/gi, "<li>");
 theText = theText.replace(/\[\*\]/gi, "</li>");
 
-
+/* mark */
+theText = theText.replace(/\[mark\=\"/gi, "<span style='background-color:");
+theText = theText.replace(/\[\/mark\]/gi, "</span>");
 /* link */
 theText = theText.replace(/\[url=\"/gi, "<a target='_blank' href='");
 theText = theText.replace(/\[\/url\]/gi, "</a>");
