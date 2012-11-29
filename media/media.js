@@ -104,7 +104,7 @@ theText = theText.replace(/ص3/gi, "<img src='https://lh4.ggpht.com/_u7a1IFxc4WI
 theText = theText.replace(/ص4/gi, "<img src='https://lh6.ggpht.com/_u7a1IFxc4WI/TM-vzrqI4MI/AAAAAAAAATk/BhfFnT0Gbro/66.gif'/>");
 theText = theText.replace(/ص5/gi, "<img src='https://lh6.ggpht.com/_u7a1IFxc4WI/TM-vziH8NXI/AAAAAAAAATg/2evEbN2cJwc/43.gif'/>");
 theText = theText.replace(/ص6/gi, "<img src='https://lh6.ggpht.com/_u7a1IFxc4WI/TM-vuJ1G41I/AAAAAAAAATM/_jLHXvz6PTg/24.gif'/>");
-theText = theText.replace(/ي1/gi, "<img src='http://i50.tinypic.com/qsjxqg.jpg'/>");
+theText = theText.replace(/ز1/gi, "<img src='http://i50.tinypic.com/qsjxqg.jpg'/>");
 theText = theText.replace(/ي2/gi, "<img src='http://i48.tinypic.com/k54u3b.jpg'/>");
 theText = theText.replace(/ي3/gi, "<img src='http://i49.tinypic.com/2uj2lfp.jpg'/>");
 theText = theText.replace(/ي4/gi, "<img src='http://i45.tinypic.com/e9stxs.jpg'/>");
