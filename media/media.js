@@ -111,7 +111,7 @@ theText = theText.replace(/ز3/gi, "<img src='http://i47.tinypic.com/2zeiex3.jpg
 theText = theText.replace(/ز4/gi, "<img src='http://i50.tinypic.com/aequx3.jpg'/>");
 theText = theText.replace(/ز5/gi, "<img src='http://i46.tinypic.com/2unwp09.jpg'/>");
 /* يد */
-theText = theText.replace(/ي1/gi, "<img src='http://i50.tinypic.com/qsjxqg.jpg'/>");
+theText = theText.replace(/ق1/gi, "<img src='http://i50.tinypic.com/qsjxqg.jpg'/>");
 theText = theText.replace(/ي2/gi, "<img src='http://i48.tinypic.com/k54u3b.jpg'/>");
 theText = theText.replace(/ي3/gi, "<img src='http://i49.tinypic.com/2uj2lfp.jpg'/>");
 theText = theText.replace(/ي4/gi, "<img src='http://i45.tinypic.com/e9stxs.jpg'/>");
