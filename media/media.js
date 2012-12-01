@@ -89,14 +89,14 @@ theText = theText.replace(/<a/gi, "<a target='_blank'");
 
 
 /* smilies*/
-theText = theText.replace(/س1/gi, "<img src='https://lh4.ggpht.com/_u7a1IFxc4WI/TM-vt_XVZKI/AAAAAAAAATI/Q35_W0anT6A/21.gif'/>");
-theText = theText.replace(/س2/gi, "<img src='https://lh6.ggpht.com/_u7a1IFxc4WI/TM-vzUt1yQI/AAAAAAAAATY/QHNvnj0gYbU/41.gif'/>");
-theText = theText.replace(/س3/gi, "<img src='https://lh3.ggpht.com/_u7a1IFxc4WI/TM-voxnkRKI/AAAAAAAAAS4/PjDn098vm3w/4.gif'/>");
-theText = theText.replace(/س4/gi, "<img src='https://lh6.ggpht.com/_u7a1IFxc4WI/TM-vpDb68dI/AAAAAAAAAS8/Yv0Uu3qzG_Q/10.gif'/>");
-theText = theText.replace(/س5/gi, "<img src='https://lh4.ggpht.com/_u7a1IFxc4WI/TM-vt5z16MI/AAAAAAAAATE/Hx-7Thmr6do/20.gif'/>");
-theText = theText.replace(/س6/gi, "<img src='https://lh6.ggpht.com/_u7a1IFxc4WI/TM-voiNIw2I/AAAAAAAAASw/aav2hwqeG0c/1.gif'/>");
-theText = theText.replace(/س7/gi, "<img src='https://lh6.ggpht.com/_u7a1IFxc4WI/TM-voq7QQnI/AAAAAAAAAS0/UzoFJOCcPPU/2.gif'/>");
-theText = theText.replace(/س8/gi, "<img src='https://lh5.ggpht.com/_u7a1IFxc4WI/TM-vua5MF2I/AAAAAAAAATU/N4X-ouMd1-I/39.gif'/>");
+theText = theText.replace(/س1/gi, "<img src='http://i50.tinypic.com/34s5eki.jpg'/>");
+theText = theText.replace(/س2/gi, "<img src='http://i50.tinypic.com/1432wec.jpg'/>");
+theText = theText.replace(/س3/gi, "<img src='http://i50.tinypic.com/2ish9w3.jpg'/>");
+theText = theText.replace(/س4/gi, "<img src='http://i50.tinypic.com/121dbub.jpg'/>");
+theText = theText.replace(/س5/gi, "<img src='http://i50.tinypic.com/n66j3a.jpg'/>");
+theText = theText.replace(/س6/gi, "<img src='http://i50.tinypic.com/msdj01.jpg'/>");
+theText = theText.replace(/س7/gi, "<img src='http://i50.tinypic.com/31274b6.jpg'/>");
+theText = theText.replace(/س8/gi, "<img src='http://i50.tinypic.com/j5y245.jpg'/>");
 theText = theText.replace(/س9/gi, "<img src='https://lh6.ggpht.com/_u7a1IFxc4WI/TM-vuMg6RQI/AAAAAAAAATQ/rWj7euuKOZs/33.gif'/>");
 theText = theText.replace(/ص1/gi, "<img src='https://lh6.ggpht.com/_u7a1IFxc4WI/TM-vpLiW1GI/AAAAAAAAATA/fPyPJcBks7s/13.gif'/>");
 theText = theText.replace(/ص2/gi, "<img src='https://lh3.ggpht.com/_u7a1IFxc4WI/TM-vz4hwcNI/AAAAAAAAATo/4ySXuvQWma8/104.gif'/>");
