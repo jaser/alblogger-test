@@ -89,21 +89,50 @@ theText = theText.replace(/<a/gi, "<a target='_blank'");
 
 
 /* smilies*/
-theText = theText.replace(/س1/gi, "<img src='http://i50.tinypic.com/34s5eki.jpg'/>");
-theText = theText.replace(/س2/gi, "<img src='http://i50.tinypic.com/1432wec.jpg'/>");
-theText = theText.replace(/س3/gi, "<img src='http://i50.tinypic.com/2ish9w3.jpg'/>");
-theText = theText.replace(/س4/gi, "<img src='http://i50.tinypic.com/121dbub.jpg'/>");
-theText = theText.replace(/س5/gi, "<img src='http://i50.tinypic.com/n66j3a.jpg'/>");
-theText = theText.replace(/س6/gi, "<img src='http://i50.tinypic.com/msdj01.jpg'/>");
-theText = theText.replace(/س7/gi, "<img src='http://i50.tinypic.com/31274b6.jpg'/>");
-theText = theText.replace(/س8/gi, "<img src='http://i50.tinypic.com/j5y245.jpg'/>");
-theText = theText.replace(/س9/gi, "<img src='https://lh6.ggpht.com/_u7a1IFxc4WI/TM-vuMg6RQI/AAAAAAAAATQ/rWj7euuKOZs/33.gif'/>");
-theText = theText.replace(/ص1/gi, "<img src='https://lh6.ggpht.com/_u7a1IFxc4WI/TM-vpLiW1GI/AAAAAAAAATA/fPyPJcBks7s/13.gif'/>");
-theText = theText.replace(/ص2/gi, "<img src='https://lh3.ggpht.com/_u7a1IFxc4WI/TM-vz4hwcNI/AAAAAAAAATo/4ySXuvQWma8/104.gif'/>");
-theText = theText.replace(/ص3/gi, "<img src='https://lh4.ggpht.com/_u7a1IFxc4WI/TM-vzUOH79I/AAAAAAAAATc/oNE5H5vcNtI/42.gif'/>");
-theText = theText.replace(/ص4/gi, "<img src='https://lh6.ggpht.com/_u7a1IFxc4WI/TM-vzrqI4MI/AAAAAAAAATk/BhfFnT0Gbro/66.gif'/>");
-theText = theText.replace(/ص5/gi, "<img src='https://lh6.ggpht.com/_u7a1IFxc4WI/TM-vziH8NXI/AAAAAAAAATg/2evEbN2cJwc/43.gif'/>");
-theText = theText.replace(/ص7/gi, "<img src='https://lh6.ggpht.com/_u7a1IFxc4WI/TM-vuJ1G41I/AAAAAAAAATM/_jLHXvz6PTg/24.gif'/>");
+theText = theText.replace(/ت1/gi, "<img src='http://i50.tinypic.com/34s5eki.jpg'/>");
+theText = theText.replace(/ت2/gi, "<img src='http://i50.tinypic.com/1432wec.jpg'/>");
+theText = theText.replace(/ت3/gi, "<img src='http://i50.tinypic.com/2ish9w3.jpg'/>");
+theText = theText.replace(/ت4/gi, "<img src='http://i50.tinypic.com/121dbub.jpg'/>");
+theText = theText.replace(/ت5/gi, "<img src='http://i50.tinypic.com/n66j3a.jpg'/>");
+theText = theText.replace(/ت6/gi, "<img src='http://i50.tinypic.com/msdj01.jpg'/>");
+theText = theText.replace(/ت7/gi, "<img src='http://i50.tinypic.com/31274b6.jpg'/>");
+theText = theText.replace(/ت8/gi, "<img src='http://i50.tinypic.com/j5y245.jpg'/>");
+theText = theText.replace(/ب1/gi, "<img src='http://i50.tinypic.com/2vc97yf.jpg'/>");
+theText = theText.replace(/ب2/gi, "<img src='http://i50.tinypic.com/2eltvtw.jpg'/>");
+theText = theText.replace(/ب3/gi, "<img src='http://i50.tinypic.com/dhcsi.jpg'/>");
+theText = theText.replace(/ب4/gi, "<img src='http://i50.tinypic.com/2rojeqh.jpg'/>");
+theText = theText.replace(/ب5/gi, "<img src='http://i50.tinypic.com/2yv9kas.jpg'/>");
+theText = theText.replace(/ب6/gi, "<img src='http://i50.tinypic.com/316b48h.jpg'/>");
+theText = theText.replace(/ب7/gi, "<img src='http://i50.tinypic.com/2w2fn2s.jpg'/>");
+theText = theText.replace(/ب8/gi, "<img src='http://i50.tinypic.com/16k9pp5.jpg'/>");
+theText = theText.replace(/ج1/gi, "<img src='http://i50.tinypic.com/10ncpae.jpg'/>");
+theText = theText.replace(/ج2/gi, "<img src='http://i50.tinypic.com/348gdj9.jpg'/>");
+theText = theText.replace(/ج3/gi, "<img src='http://i50.tinypic.com/m0s8z.jpg'/>");
+theText = theText.replace(/ج4/gi, "<img src='http://i50.tinypic.com/34so64h.jpg'/>");
+theText = theText.replace(/ج5/gi, "<img src='http://i50.tinypic.com/724lkw.jpg'/>");
+theText = theText.replace(/ج6/gi, "<img src='http://i50.tinypic.com/iwu6oy.jpg'/>");
+theText = theText.replace(/ج7/gi, "<img src='http://i50.tinypic.com/2el4ffs.jpg'/>");
+theText = theText.replace(/ج8/gi, "<img src='http://i50.tinypic.com/x36ejp.jpg'/>");
+theText = theText.replace(/ع1/gi, "<img src='http://i50.tinypic.com/2mnpwuf.jpg'/>");
+theText = theText.replace(/ع2/gi, "<img src='http://i50.tinypic.com/f16vd.jpg'/>");
+theText = theText.replace(/ع3/gi, "<img src='http://i50.tinypic.com/51vus5.jpg'/>");
+theText = theText.replace(/ع4/gi, "<img src='http://i50.tinypic.com/2cxdwyv.jpg'/>");
+theText = theText.replace(/ع5/gi, "<img src='http://i50.tinypic.com/23r0854.jpg'/>");
+theText = theText.replace(/ع6/gi, "<img src='http://i50.tinypic.com/knalt.jpg'/>");
+theText = theText.replace(/ع7/gi, "<img src='http://i50.tinypic.com/e70a51.jpg'/>");
+theText = theText.replace(/ع8/gi, "<img src='http://i50.tinypic.com/23uoha9.jpg'/>");
+theText = theText.replace(/م1/gi, "<img src='http://i50.tinypic.com/o50yew.jpg'/>");
+theText = theText.replace(/م2/gi, "<img src='http://i50.tinypic.com/jhdn2e.jpg'/>");
+theText = theText.replace(/م3/gi, "<img src='http://i50.tinypic.com/2zxxffr.jpg'/>");
+theText = theText.replace(/م4/gi, "<img src='http://i50.tinypic.com/5f0pw7.jpg'/>");
+theText = theText.replace(/م5/gi, "<img src='http://i50.tinypic.com/24wr7uu.jpg'/>");
+theText = theText.replace(/م6/gi, "<img src='http://i50.tinypic.com/34i5tud.jpg'/>");
+theText = theText.replace(/م7/gi, "<img src='http://i50.tinypic.com/hure39.jpg'/>");
+theText = theText.replace(/م8/gi, "<img src='http://i50.tinypic.com/346udg8.jpg'/>");
+theText = theText.replace(/م9/gi, "<img src='http://i50.tinypic.com/35cpgy8.jpg'/>");
+
+
+
 
 theText = theText.replace(/ز1/gi, "<img src='http://i50.tinypic.com/qsjxqg.jpg'/>");
 theText = theText.replace(/\ي2\2/gi, "<img src='http://i48.tinypic.com/k54u3b.jpg'/>");
