@@ -133,13 +133,6 @@ theText = theText.replace(/م9/gi, "<img src='http://i50.tinypic.com/35cpgy8.jpg
 
 
 
-
-theText = theText.replace(/ز1/gi, "<img src='http://i50.tinypic.com/qsjxqg.jpg'/>");
-theText = theText.replace(/\ي2\2/gi, "<img src='http://i48.tinypic.com/k54u3b.jpg'/>");
-theText = theText.replace(/ي3/gi, "<img src='http://i49.tinypic.com/2uj2lfp.jpg'/>");
-theText = theText.replace(/ي4/gi, "<img src='http://i45.tinypic.com/e9stxs.jpg'/>");
-theText = theText.replace(/ي5/gi, "<img src='http://i50.tinypic.com/15h1op0.jpg'/>");
-
 bodyText.innerHTML = theText;
 }replaceText();
 
