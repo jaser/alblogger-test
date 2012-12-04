@@ -6,24 +6,20 @@ theText = theText.replace(/\[img\].*?'.*?\[\/img\]/gi, "");
 theText = theText.replace(/\[y\].*?'.*?\[\/y\]/gi, "");
 /* adjust Iframe */
 document.write("<style> .comments .comment-block iframe {display:block;margin:0 auto;}<\/style>");
-
-
-
-
 /* images */
 theText = theText.replace(/\[img\]/gi, "<div style='clear:both'></div><img style='margin:0 auto;max-width:90%;display:block;' src='");
 theText = theText.replace(/\[\/img\]/gi, "'/><div style='clear:both'></div>");
 theText = theText.replace(/\[\\img\]/gi, "'/><div style='clear:both'></div>");
 /* youtube */
-theText = theText.replace(/\[y\]http:\/\/youtu.be/gi, "<iframe style='max-width:80%;' width='480' height='390' src='http://www.youtube.com/embed");
-theText = theText.replace(/\[y\]http:\/\/www.youtube.com\/watch\?v=/gi, "<iframe width='480' height='390' src='http://www.youtube.com/embed/");
+theText = theText.replace(/\[y\]http:\/\/youtu.be/gi, "<center><iframe style='max-width:80%;' width='480' height='390' src='http://www.youtube.com/embed");
+theText = theText.replace(/\[y\]http:\/\/www.youtube.com\/watch\?v=/gi, "<center><iframe style='max-width:80%;' width='480' height='390' src='http://www.youtube.com/embed/");
 theText = theText.replace(/&feature=/gi, "?rel=0' '");
-theText = theText.replace(/\[\/y\]/gi, "?rel=0' frameborder='0' allowfullscreen></iframe>");
-theText = theText.replace(/\[\\y\]/gi, "?rel=0' frameborder='0' allowfullscreen></iframe>");
+theText = theText.replace(/\[\/y\]/gi, "?rel=0' frameborder='0' allowfullscreen></iframe></center>");
+theText = theText.replace(/\[\\y\]/gi, "?rel=0' frameborder='0' allowfullscreen></iframe></center>");
 /*vimeo*/
-theText = theText.replace(/\[v\]/gi, "<iframe style='max-width:80%;' src='http://player.vimeo.com/video/");
-theText = theText.replace(/\[\/v\]/gi, "?title=0&amp;byline=0&amp;portrait=0' width='500' height='281' frameborder='0' allowFullScreen></iframe>");
-theText = theText.replace(/\[\\v\]/gi, "?title=0&amp;byline=0&amp;portrait=0' width='500' height='281' frameborder='0' allowFullScreen></iframe>");
+theText = theText.replace(/\[v\]/gi, "<center><iframe style='max-width:80%;' src='http://player.vimeo.com/video/");
+theText = theText.replace(/\[\/v\]/gi, "?title=0&amp;byline=0&amp;portrait=0' width='500' height='281' frameborder='0' allowFullScreen></iframe></center>");
+theText = theText.replace(/\[\\v\]/gi, "?title=0&amp;byline=0&amp;portrait=0' width='500' height='281' frameborder='0' allowFullScreen></iframe></center>");
 /*mp3*/
 theText = theText.replace(/\[mp3\]/gi, "<center><object data='http://www.google.com/reader/ui/3523697345-audio-player.swf' type='application/x-shockwave-flash' width='300' height='27'><param name='src' value='http://www.google.com/reader/ui/3523697345-audio-player.swf' /><param name='FlashVars' value='audioUrl=");
 theText = theText.replace(/\[\/mp3\]/gi, "'/></object></center>");
@@ -33,10 +29,9 @@ theText = theText.replace(/\[rm\]/gi, "<center><embed width='300' height='27' sr
 theText = theText.replace(/\[\/rm\]/gi, "' pluginspage='http://www.real.com/player' type='audio/x-pn-realaudio-plugin' nojava='true' autostart='false' maintainaspect='false' controls='controlpanel'/></center>");
 theText = theText.replace(/\[\\rm\]/gi, "' pluginspage='http://www.real.com/player' type='audio/x-pn-realaudio-plugin' nojava='true' autostart='false' maintainaspect='false' controls='controlpanel'/></center>");
 /* code */
-theText = theText.replace(/\[code\]/gi, "<pre style='text-align:left; direction:ltr; color:olive;background:#EEEEEE;font-size:13px;font-weight:normal!important;line-height:18px;overflow:auto;padding: 7px 0 7px 10px;'>");
+theText = theText.replace(/\[code\]/gi, "<pre style='text-align:left;max-width: 95%; direction:ltr; color:olive;background:#EEEEEE;font-size:13px;font-weight:normal!important;line-height:18px;overflow:auto;padding: 7px 0 7px 10px;'>");
 theText = theText.replace(/\[\/code\]/gi, "</pre>");
 theText = theText.replace(/\[\\code\]/gi, "</pre>");
-
 /* bbcode */
 theText = theText.replace(/\[b\]/gi, "<b>");
 theText = theText.replace(/\[\/b\]/gi, "</b>");
