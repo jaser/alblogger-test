@@ -1,6 +1,6 @@
 //<![CDATA[
 function replaceText(){if(!document.getElementById){return;}
-bodyText = document.getElementById("comments");
+bodyText = document.getElementById("bbcode");
 theText = bodyText.innerHTML;
 theText = theText.replace(/\[img\].*?'.*?\[\/img\]/gi, "");
 theText = theText.replace(/\[y\].*?'.*?\[\/y\]/gi, "");
