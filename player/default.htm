@@ -1,0 +1,203 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title> إدراج صوتيات إلى موقعك</title>
+<script type="text/javascript" src="src/shCore.js"></script>
+	<script type="text/javascript" src="src/shBrushJScript.js"></script>
+	<script type="text/javascript" src="src/shBrushXml.js"></script>
+<link type="text/css" rel="stylesheet" href="src/shCoreDefault.css"/>
+<link rel="stylesheet" type="text/css" href="src/style.css" />
+<script type='text/javascript'>SyntaxHighlighter.all();</script>
+<style type="text/css">
+.style1 {
+				direction: ltr;
+}
+.style2 {
+				color: olive;
+}
+</style>
+</head>
+
+<body>
+
+<div id="container">
+
+<div class="box">
+<h2> باستخدام شفرة HTML 5 </h2>
+<h3> الدعم ←</h3>
+<p>يدعم:: الكروم  - السفاري - اكسبلورر 9 - وآيباد وآيفون</p>
+<p>لا يدعم: فيرفوكس - أوبرا ( إلا إذا كانت الصوتية بصيغة <span lang="en-us">ogg</span> 
+)</p>
+<h3> الكود ←</h3>
+<pre class="brush: xml;" >
+&lt;audio controls preload=&quot;none&quot;&gt;
+&lt;source src=&quot;رابط الصوت&quot; type=&quot;audio/mpeg&quot; /&gt;
+&lt;/audio&gt;
+</pre>
+<h3> النتيجة ←</h3>
+<div class="player">
+<audio  preload="none" controls autoplay >
+<source src="http://live.islamweb.net/Adan/4031.mp3" type="audio/mpeg" />
+</audio>
+</div>
+<h3> ملاحظات ←</h3>
+<p> <span lang="en-us">&nbsp;<span class="style2">preload</span></span> »&nbsp; تحدد هل تريد من المتصفح البدء في 
+تنزيل الصوتية أو الإنتظار حتى يضغط الزائر زر التشغيل. وله ثلاث قيم وهي
+<span lang="en-us">none</span> وتعني لا تقم بتنزيل الصوتية ( 
+يُفضل) , <span lang="en-us">auto</span> سيقوم المتصفح مباشرة بتنزيل الصوتية دون 
+تشغيلها (بطئ في التصفح) ، <span lang="en-us">metadata</span> تنزيل معلومات 
+الصوتية فقط.</p>
+<p> <span lang="en-us"><span class="style2">Controls</span> »&nbsp; </span>ولإظهار أزرار التحكم ( يُفضل )</p>
+<p>   <span lang="en-us">&nbsp;<span class="style2">autoplay</span> »</span>&nbsp;   إن شئت أن يبدء المشغل بتشغل الصوتية تلقائياً يمكن إضافة كلمة autoplay وهذه الميزة متوفرة فقط للكروم والسفاري دون اكسبلورر 9 
+( لا يُستحسن&nbsp; )</p>
+<p>   <span class="style2">loop</span><span lang="en-us"> » </span>
+<span lang="ar-sa">إعادة تشغيل الصوت </span></p>
+<p>   للإستزاده:
+<a target="_blank" href="http://www.w3schools.com/tags/tag_audio.asp">هنا</a></p>
+</div>
+<!-- =========================== -->
+<div class="box">
+<h2> باستخدام مشغل فلاش <span lang="en-us">Google Reader</span> </h2>
+<h3> الدعم ←</h3>
+<p>يدعم : جميع المتصفحات التي تدعم الفلاش ( لابد من تثبيت مشغل الفلاش )</p>
+<p>&nbsp;لا يدعم: 
+الآيباد والآيفون!</p>
+<h3> الكود ←</h3>
+<pre class="brush: xml;" >
+&lt;object data=&quot;http://www.google.com/reader/ui/3523697345-audio-player.swf&quot; type=&quot;application/x-shockwave-flash&quot; width=&quot;350&quot; height=&quot;27&quot;&gt;
+&lt;param name=&quot;src&quot; value=&quot;http://www.google.com/reader/ui/3523697345-audio-player.swf&quot; /&gt;
+&lt;param name=&quot;FlashVars&quot; value=&quot;audioUrl=رابط الصوتية&quot; /&gt;
+&lt;/object&gt;
+</pre>
+<h3> النتيجة ←</h3>
+<div class="player">
+<object data="swf/google.swf" type="application/x-shockwave-flash" width="350" height="27">
+<param name="src" value="swf/google.swf" />
+<param name="FlashVars" value="audioUrl=http://live.islamweb.net/Adan/4025.mp3" />
+</object></div>
+<h3> ملاحظات ←</h3>
+<p> <span lang="en-us">&nbsp;»</span><span lang="ar-sa"> يمكنك حفظ مشغل الفلاش (</span> 
+audio-player.swf<span lang="ar-sa"> ) في موقع آخر ، وهذا يُستحسن فقد يتغير رابط 
+مشغل فوفيل ريدر </span></p>
+<p> »&nbsp; يمكنك تغيير مقاس مشغل 
+الفلاش بتغيير قيمة width و height
+</p>
+<p> » <span lang="ar-sa">لإخفاء المشغل ضع قيمة &quot;صفر&quot; لكل من طول وعرض الفلاش !</span></p>
+<p> » <span lang="ar-sa">للتشغيل التلقائي: أكتب المفتاح ( &amp;autoPlay=true ) بعد 
+رابط الصوت مباشرة.</span></p>
+<p class="style1"> <span lang="ar-sa">
+http://live.islamweb.net/Adan/4010.mp3&amp;autoPlay=true</span></p>
+</div>
+<!-- =========================== -->
+<div class="box">
+<h2> باستخدام مشغل فلاش&nbsp; maxi mp3 player</h2>
+<h3> الدعم ←</h3>
+<p>يدعم : جميع المتصفحات التي تدعم الفلاش ( لابد من تثبيت مشغل الفلاش )</p>
+<p>&nbsp;لا يدعم: 
+الآيباد والآيفون!</p>
+<h3> الكود ←</h3>
+<pre class="brush: xml;" >
+&lt;object data=&quot;http://flash-mp3-player.net/medias/player_mp3_maxi.swf&quot; type=&quot;application/x-shockwave-flash&quot; width=&quot;350&quot; height=&quot;27&quot;&gt;
+&lt;param name=&quot;src&quot; value=&quot;http://flash-mp3-player.net/medias/player_mp3_maxi.swf&quot; /&gt;
+&lt;param name=&quot;FlashVars&quot; value=&quot;mp3=رابط الصوتية&amp;showvolume=1&amp;showstop=1&quot;  /&gt;
+&lt;/object&gt;
+</pre>
+<h3> النتيجة ←</h3>
+<div class="player">
+<object data="http://flash-mp3-player.net/medias/player_mp3_maxi.swf" type="application/x-shockwave-flash" width="350" height="27">
+<param name="src" value="http://flash-mp3-player.net/medias/player_mp3_maxi.swf" />
+<param name="FlashVars" value="mp3=http://live.islamweb.net/Adan/1010.mp3&showvolume=1&showstop=1"  />
+</object>
+</div>
+<h3> ملاحظات ←</h3>
+<p> <span lang="en-us">&nbsp;»</span><span lang="ar-sa"> يمكنك حفظ مشغل الفلاش (</span> 
+player_mp3_maxi.swf<span lang="ar-sa"> ) في حساب خاص بموقعك في قوقيل كود، راجع 
+مدونة البلوقر لشرح الطريقة الصحيحة.</span></p>
+<p> »&nbsp; يمكنك تغيير مقاس مشغل 
+الفلاش بتغيير قيمة width و height
+</p>
+<p> » <span lang="ar-sa">في السطر الثالث نعطي المحدد (</span>showvolume<span lang="ar-sa">) 
+القيمة ( 1 ) لإظهار زر التحكم بالصوت ، ونعطي المحدد (</span>showstop<span lang="ar-sa">) 
+القيمة (1) لإظهار زر إيقاف تشغيل الصوت.</span></p>
+<p> <span lang="ar-sa">» راجع صفحة مشروع مشغل الفلاش فهناك عدة طرق وأشكال يمكنك 
+الاختيار من بينها ،
+<a target="_blank" href="http://code.google.com/p/mp3player/">صفحة المشروع</a></span></p>
+</div>
+<!-- =========================== -->
+<div class="box">
+
+<h2> <span lang="ar-sa">الدمج بين مشغل الفلاش ومشغل </span>HTML5<span lang="ar-sa"> 
+( الطريقة الذكية)</span></h2>
+<h3> الدعم ←</h3>
+<p>تدعم جميع المتصفحات والأنظمة ، وفكرتها: إدخال مشغل <span lang="en-us">HTML5</span> 
+في داخل كود مشغل الفلاش وبالتالي يكون مشغل الفلاش في مستوى أعلى من مشغل
+<span lang="en-us">HTML5</span> فإن كان المتصفح يدعمه فسيظهر مباشرة، وان لم 
+يدعمه فلن يظهر وبالتالي سيكون مشغل <span lang="en-us">HTML5</span> مكشوفاً 
+يستطيع المتصفح تشغيله.</p>
+<h3> الكود ←</h3>
+<pre class="brush: xml;" >
+&lt;object data=&quot;http://flash-mp3-player.net/medias/player_mp3_maxi.swf&quot; type=&quot;application/x-shockwave-flash&quot; width=&quot;350&quot; height=&quot;27&quot;&gt;
+&lt;param name=&quot;src&quot; value=&quot;http://flash-mp3-player.net/medias/player_mp3_maxi.swf&quot; /&gt;
+&lt;param name=&quot;FlashVars&quot; value=&quot;mp3=http://live.islamweb.net/Adan/4010.mp3&amp;showvolume=1&amp;showstop=1&quot;  /&gt;
+&lt;audio dir=&quot;ltr&quot; src=&quot;http://media.islamway.net/lessons/ali/life1.mp3&quot; controls preload=&quot;none&quot; style=&quot;width:350px; height:27px&quot;&gt;&lt;/audio&gt;
+&lt;/object&gt;
+</pre>
+<h3> النتيجة ←</h3>
+<div class="player">
+<object data="http://flash-mp3-player.net/medias/player_mp3_maxi.swf" type="application/x-shockwave-flash" width="350" height="27">
+<param name="src" value="http://flash-mp3-player.net/medias/player_mp3_maxi.swf" />
+<param name="FlashVars" value="mp3=http://live.islamweb.net/Adan/4010.mp3&showvolume=1&showstop=1"  />
+<audio dir="ltr" src="http://live.islamweb.net/Adan/4010.mp3" controls preload="none" style="width:350px; height:27px"></audio>
+</object>
+</div>
+<h3> ملاحظات ←</h3>
+<p>نحن هنا استخدمنا مشغل فلاش <span lang="en-us">maxi mp3 </span>&nbsp;يمكن 
+استخدام مشغل&nbsp; فلاش قوقيل أو&nbsp; غيره</p>
+
+</div>
+
+<!-- =========================== -->
+
+<div class="box">
+<h2> تشغيل صيغ الريل بلاير <span lang="en-us">realplayer</span></h2>
+<h3> الدعم ←</h3>
+<p>يدعم : جميع المتصفحات التي تدعم الفلاش ( لابد من تثبيت إضافة الريل بلاير 
+للمتصفح&nbsp; )</p>
+<p>&nbsp;لا يدعم: 
+الآيباد والآيفون! لأنه مشغل فلاشي</p>
+<h3> الكود ←</h3>
+<pre class="brush: xml;" >
+&lt;object type=&quot;audio/x-pn-realaudio-plugin&quot;
+data=&quot;رابط الصوت&quot; width=&quot;300&quot; height=&quot;70&quot; &gt;
+&lt;param name=&quot;controls&quot; value=&quot;ControlPanel,StatusBar&quot;/&gt;
+&lt;param name=&quot;autostart&quot; value=&quot;false&quot;/&gt;
+&lt;/object&gt;</pre>
+<h3> النتيجة ←</h3>
+<div class="player">
+<object type="audio/x-pn-realaudio-plugin"
+data="http://quran.islamway.net/individual/scho796/347_Imram.rm" width="300" height="70" >
+<param name="controls" value="ControlPanel,StatusBar"/>
+<param name="autostart" value="false"/>
+</object>
+
+</div>
+<h3> ملاحظات ←</h3>
+<p> <span lang="en-us">&nbsp;»</span> لإخفاء شريط الحالة السفلي: احذف المفتاح 
+StatusBar ، سيكون شكله أجمل !</p>
+<p> »&nbsp; يمكنك تغيير مقاس مشغل 
+الفلاش بتغيير قيمة width و height
+</p>
+<p> » للتشغيل التلقائي: استبدل المفتاح <span lang="en-us">false</span> بـ
+<span lang="en-us">true</span> </p>
+<p> <span lang="ar-sa">» راجع صفحة مشروع مشغل الفلاش فهناك عدة طرق وأشكال يمكنك 
+الاختيار من بينها ،
+<a target="_blank" href="http://code.google.com/p/mp3player/">صفحة المشروع</a></span></p>
+</div>
+
+
+</div>
+</body>
+
+</html>

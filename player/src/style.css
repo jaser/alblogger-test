@@ -1,0 +1,16 @@
+﻿body {background:#999999;}
+#container {margin:0 auto;width:850px;direction:rtl;}
+.box{ background: none repeat scroll 0 0 #FFFFFF;border: 1px solid #DDDDDD; border-radius: 10px 10px 10px 10px;margin: 10px auto 50px;padding: 10px; width: 800px; box-shadow: 0 0 10px #4DC7E2;}
+.box p { font-family:Tahoma; font-weight:lighter; font-size:11pt; color:gray;  text-align: justify;}
+h2 {border-bottom:1px solid orange; color:gray; text-shadow:0 0 2px silver;}
+h3 {   background-color: #F7F7F7;
+    border-bottom: 1px solid silver;
+    border-right: 10px solid silver;
+    color: orange;
+    font-family: Tahoma;
+    font-size: 11pt;
+    font-weight: lighter;
+    height: 25px;
+    padding: 5px;}
+.player { direction: ltr;    margin: 0 auto;    width: 400px;}
+pre {	direction:ltr; border:1px soild silver; color:gray;  overflow: auto !important;}

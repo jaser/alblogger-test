@@ -1,0 +1,14 @@
+<!--   ÅÖÇÝÉ Êáæíä ÇáßæÏ -->
+<script src='http://alblogger-files.googlecode.com/svn/highlighter/shCore.js' type='text/javascript'/>
+<link href='http://alblogger-files.googlecode.com/svn/highlighter/shCoreDefault.css' rel='stylesheet' type='text/css'/>
+<script src='http://alblogger-files.googlecode.com/svn/highlighter/shBrushXml.js' type='text/javascript'/>
+<script src='http://alblogger-files.googlecode.com/svn/highlighter/shBrushCss.js' type='text/javascript'/>
+<script type='text/javascript'>SyntaxHighlighter.all();</script>
+
+=======
+note: you have to edit css of:
+.syntaxhighlighter { direction: ltr !important; }
+=====
+class="brush: xml"
+
+
